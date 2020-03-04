@@ -33,14 +33,22 @@ Download or clone the repository to run this program locally! _This program requ
 
 ## Specs
 
-<details>
+<!-- <details> -->
   <summary>Expand specs for this project</summary>
 
-| Spec | Example Input | Expected Output |
-| :--- | :------------ | :-------------- |
-
+| Spec                                                                            | Example Input                       | Expected Output              |
+| :------------------------------------------------------------------------------ | :---------------------------------- | :--------------------------- |
+| Game is constructed with scores for 2 players                                   | Start                               | Player1: 0; Player 2: 0;     |
+| When comparing two hand events, if they are the same choice, the round is a tie | Player1: Rock; Player 2: Rock;      | "tie"                        |
+| If the round is a tie, the players must play the round again                    | Player1: Rock; Player 2: Rock       | Player1: 0; Player 2: 0;     |
+| When comparing two hand events, paper beats rock                                | Player1: paper; Player 2: rock;     | "paper"                      |
+| When comparing two hand events, rock beats scissors                             | Player1: scissors; Player 2: rock;  | "rock"                       |
+| When comparing two hand events, scissors beats paper                            | Player1: scissors; Player 2: paper; | "scissors"                   |
+| When player's hand event wins a round, this player's score goes up              | Player1: scissors; Player 2: paper; | Player1: 1; Player 2: 0;     |
+| When one score reaches 2, game is over and that player wins                     | Player1: 2; Player 2: 0;            | "game over", "Player 1 wins" |
 
 </details>
+<br>
 <details>
   <summary>Expand user stories for this project</summary>
 
