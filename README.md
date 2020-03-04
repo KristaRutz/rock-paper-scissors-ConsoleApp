@@ -2,7 +2,7 @@
 
 #### A An console-based application to simulate ... where the user can ... hosted on [GitHub](https://github.com/KristaRutz/). _Last Updated 03.03.2020._
 
-#### By _**Krista Rutz, [other contributors]**_
+#### By _**Krista Rutz, Steven Fleming**_
 
 ## Description
 
@@ -60,7 +60,7 @@ Please contact me if you run into any issues or have questions, ideas or concern
 
 ### License
 
-Copyright (c) 2020 **_Krista Rutz, [Others]_**
+Copyright (c) 2020 **_Krista Rutz, Steven Fleming_**
 
 _This software is licensed under the MIT license._
 
